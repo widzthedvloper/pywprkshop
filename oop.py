@@ -9,6 +9,7 @@ class Car:
         else:
             print(f"{self.name} car is broken :( !")
 
+Car.runs = False
 volvo = Car()
 
 volvo.start("volvo")
